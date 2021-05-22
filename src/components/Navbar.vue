@@ -8,10 +8,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-           <router-link class="nav-link active" to="/">Home</router-link> 
+           <router-link class="nav-link active" to="/">Mahasiswa</router-link> 
         </li>
         <li class="nav-item">
            <router-link class="nav-link active" to="/index">Absen</router-link> 
+        </li>
+         <li class="nav-item">
+           <router-link class="nav-link active" to="/matkul">Matakuliah</router-link> 
+        </li>
+         <li class="nav-item">
+           <router-link class="nav-link active" to="/smstr">Semester</router-link> 
+        </li>
+        <li class="nav-item">
+           <router-link class="nav-link active" to="/jdwl">Jadwal</router-link> 
+        </li>
+        <li class="nav-item">
+           <router-link class="nav-link active" to="/kn">Kontrak Mahasiswa</router-link> 
         </li>
       </ul>
     </div>
